@@ -1,0 +1,62 @@
+<%- include('header') %>
+<section class="order">
+
+  <h2>Order Now</h2>
+
+  
+   <div class=" box">
+
+    <form action="/" method="post">
+
+      <div class="row  ms-0 me-0">
+        <div class="p-3 col-6">
+         <span>Your name:</span> 
+          <input type="text" maxlength="80" name="name" size="40"> <br>
+
+          <span>Mobile no.:</span> 
+          <input type="text" maxlength="80" name="mob" size="40"> <br>
+
+          <span>e--- -mail:</span> 
+          <input type="text" maxlength="80" name="email" size="40"> <br>
+
+
+          <span>Address</span> <br>
+          <textarea name="Address" id="" cols="45" rows="5"></textarea>
+
+        </div>
+    
+
+     <div class="p-3 col-6">
+      <span>Items name :</span> 
+      <input type="text" maxlength="80"  name="items" size="40"> <br>
+
+      <span>Amount Rs :</span> 
+      <input type="text" maxlength="80" name="Amount" size="40"> <br>
+       
+
+      <div class="custom-select" style="width: 600px; size: 200px; " >
+        
+      <span>Payment mode  :</span> 
+       <select style="width:400px ; height: 50px;margin-top: 20px;" name="Paymode" id="">
+        <option value="0">Online payment</option>
+        <option value="1">Cash on delivery</option>
+       </select>
+      </div>
+      
+
+  
+      <span>Description</span> <br>
+      <textarea name="Description" id="" cols="45" rows="5"></textarea>
+
+
+    </div>
+  </div>
+    
+ <button   type="submit" name="formwala"><h3> Order Now</h3></button>
+    </form>
+   </div>
+ 
+   
+</section>
+
+<%- include('footer') %>
